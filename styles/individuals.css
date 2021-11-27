@@ -1,0 +1,50 @@
+:root {
+    --title-color: #1e5858;
+    --text-color: #182b2b;
+}
+
+.informations {
+    display: flex;
+    padding: 0 60px 0 60px;
+}
+.informations h1 {
+    color: var(--title-color);
+    font-family: 'Marcellus SC', serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.informations p {
+    color: var(--text-color);
+    font-size: 16px;
+
+}
+ .informations p img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+ }
+ .informations .row {
+     margin-top: 20px;
+ }
+.informations .col-lg-5 {
+    text-align:left
+}
+
+.informations .col-md-5 {
+    text-align: left;
+    display: flex;
+    color: var(--title-color);
+}
+
+.informations .col-md-5 p{
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.informations .col-sm-1 img{
+    height: 150px;
+    width: auto;
+}
