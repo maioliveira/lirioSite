@@ -80,6 +80,8 @@ a {
     color: var(--title-color);
     font-family: 'Marcellus SC', serif;
     font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .container p {
@@ -88,6 +90,7 @@ a {
 .container img {
     width: 240px;
     margin-top: 8px;
+    margin-left: 9px;
 }
 
 .container .row {
@@ -97,6 +100,7 @@ a {
     font-size: 19px;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder ;
+    margin-top: 5px;
 }
 .col-lg-3 {
     display: flex;
@@ -121,7 +125,7 @@ a {
     align-self: flex-end;
 }
 
-form {
+/* form {
     margin-top: 200px;
     width: 600px;
     margin-left: 29%;
@@ -143,8 +147,8 @@ form .row {
 }
 
 form button {
-    margin-left: 45%;
-}
+    margin-left: 45%; 
+}*/
 
 .btn-group-vertical {
     border: none;

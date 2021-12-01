@@ -18,6 +18,25 @@ header h1 {
     color: var(--title-color);
     font-weight: bolder;
 }
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    color: var(--title-color);
+    font-weight: bolder;
+    margin-top: 200px;  
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: var(--text-color);
+    font-weight: bolder;
+    margin-top: 20px;
+    text-align: center;
+}
+
 .divisor {
     border-top: #b1aeae solid 1px;
     margin-top: 100px;
